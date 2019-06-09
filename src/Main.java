@@ -38,7 +38,7 @@ public class Main extends JFrame{
         render.setLayout(null);
         add(render);
 
-        UI combatUI = new UI();
+        CombatUI combatUI = new CombatUI();
 
         Render.instance.addToRenderPile(bg_bottom);
         Render.instance.addToRenderPile(bg_top);
